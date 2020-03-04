@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7996a7-96a3-4b30-bdf9-dee073333515" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex1/Lire.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex1/Lire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex1/client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex1/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex1/essai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex1/essai.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex1/server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex1/server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex2/Lire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex2/client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex2/clientV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex2/essai.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex2/grosFichier.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex2/server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex2/server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reponse2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/clientV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/clientV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +54,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583363580720</updated>
-      <workItem from="1583363582080" duration="256000" />
+      <workItem from="1583363582080" duration="789000" />
     </task>
+    <task id="LOCAL-00001" summary="add all">
+      <created>1583363857397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583363857397</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add all" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583363856125">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583363856125" />
     <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1583363738450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -88,5 +86,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="220" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583363776110" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583363908276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583363908276" />
   </component>
 </project>

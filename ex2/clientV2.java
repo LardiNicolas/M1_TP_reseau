@@ -1,13 +1,13 @@
 /*CLIENT CLASS*/
 import java.net.*;
 import java.io.*;
-public class client2
+public class clientV2
 {
             public static void main(String args[])throws Exception
             {         
                         //port
                         int port=2000;
-                        String fichier=grosFichier;
+                        String fichier="grosFichier";
 
                         System.out.println("Etape 1 : port("+port+")");
                         //fichier
@@ -25,18 +25,18 @@ public class client2
                         }
 
 
-                        do{
-                            System.out.println("Taille max du paquet ? ");
-                            taillePaquet = Lire.i();;
-                        }while(taillePaquet <= 0 || taillePaquet > 65000);
+                        System.out.println("Taille max du paquet ? (<65000) ");
+                        int taillePaquet = Lire.i();;
+
 
                         System.out.println("Etape 2.1 : lecture fichier volumineux");
-                        FileInputStream f=new FileInputStream(nomFichier+".txt");
+                        FileInputStream f=new FileInputStream(nomFichier);
                         DatagramSocket dsoc=new DatagramSocket(50000);
 
 
                         int i=1;
                         int cpt = 0;
+                        byte b[]=new byte[500000];
                         while(f.available()!=0)
                         {
                                     b[i]=(byte)f.read();
