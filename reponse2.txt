@@ -1,0 +1,4 @@
+message erreur :
+Exception in thread "main" java.io.IOException: Message trop long (sendto failed)
+
+limite taille : 65 507
