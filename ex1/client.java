@@ -8,7 +8,7 @@ public class client
             {         
                         System.out.println("Etape 1 : Veuillez saisir le port (>1024)");
                         int port=Lire.i();
-                        System.out.println("Etape 2 : Veuillez saisir le nom du fichier de destination (sans extension)");
+                        System.out.println("Etape 2 : Veuillez saisir le nom du fichier de destination");
                         String fichier=Lire.S();
                         File nomFichier = new File(fichier);
 
