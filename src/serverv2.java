@@ -12,7 +12,7 @@ public class serverv2
                         String texte;
                         while(true)
                         {
-                                    DatagramPacket dp=new DatagramPacket(b,b.length);//L'ERREUR EST LA
+                                    DatagramPacket dp=new DatagramPacket(b,b.length);
                                     dsoc.receive(dp);
                                     String s = (new String(dp.getData(), StandardCharsets.UTF_8)).substring(0,dp.getLength());
                                     System.out.println("Paquet n°"+dp.getData()[0]+" a bien été reçu");

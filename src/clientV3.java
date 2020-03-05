@@ -37,23 +37,33 @@ public class clientV3
                         long tailleTotal=nomFichier.length();
                         int cpt = 0;
                         byte b[]=new byte[500000];
+                        DatagramPacket dpRetour=new DatagramPacket(b,b.length);
                         while(f.available()!=0)
                         {
                                     b[i]=(byte)f.read();
                                     i++;
                                     if( i == taillePaquet)
                                     {
-                                        b[cpt] = (byte)cpt;
+                                        b[0] = (byte)cpt;
                                         dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port)); //L'ERREUR EST LA
-                                        System.out.println("Paquet envoye : N-"+cpt+", taille("+i+")");
+                                        System.out.println("Paquet envoye : N°"+cpt+", taille("+i+")");
                                         i=0;
                                         cpt++;
+                                        dsoc.receive(dpRetour);
+                                        String ligne = new String(b);
+                                        ligne = ligne.substring(0, dpRetour.getLength());
+                                        System.out.println("Accusé de reception du port " + dpRetour.getPort() + " de la machine " + dpRetour.getAddress().getHostName() + " : " + ligne);
+
                                     }
                                     else if( tailleTotal == taillePaquet*cpt+i)
                                     {
                                         b[0]=(byte)cpt;
                                         dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port));
-                                        System.out.println("Paquet envoye : N-"+cpt+",taille("+i+")");
+                                        System.out.println("Paquet envoye : N°"+cpt+",taille("+i+")");
+                                        dsoc.receive(dpRetour);
+                                        String ligne = new String(b);
+                                        ligne = ligne.substring(0, dpRetour.getLength());
+                                        System.out.println("Accusé de reception du port " + dpRetour.getPort() + " de la machine " + dpRetour.getAddress().getHostName() + " : " + ligne);
                                         System.out.println("taille totale du fichier envoye ="+tailleTotal);
                                     }
 
@@ -62,12 +72,9 @@ public class clientV3
                         }                     
                         f.close();
 
-                        b = new byte[256];
                         DatagramPacket dp=new DatagramPacket(b,b.length);
                         dsoc.receive(dp);
-                        String ligne = new String(b);
-                        ligne = ligne.substring(0, dp.getLength());
-                        System.out.println("Accusé de reception du port " + dp.getPort() + " de la machine " + dp.getAddress().getHostName() + " : " + ligne);
+
                         System.exit(1);
 
 

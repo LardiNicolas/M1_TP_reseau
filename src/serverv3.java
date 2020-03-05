@@ -6,24 +6,27 @@ public class serverv3
             public static void main(String args[])throws IOException
             {
                         byte[] b=new byte[65000];
-                        int longueurAccuse = b.length;
                         DatagramSocket dsoc=new DatagramSocket(2000);
                         FileOutputStream f=new FileOutputStream("essai.txt");
                         String texte;
                         while(true)
                         {
-                                    DatagramPacket dp=new DatagramPacket(b,b.length);//L'ERREUR EST LA
+                                    DatagramPacket dp=new DatagramPacket(b,b.length);
                                     dsoc.receive(dp);
                                     String s = (new String(dp.getData(), StandardCharsets.UTF_8)).substring(0,dp.getLength());
-                                    InetAddress adresseIP = dp.getAddress();
-                                    int portDistant = dp.getPort();
-                                    //System.out.println(s);
+
+                                    System.out.println("Paquet n°"+dp.getData()[0]+" a bien été reçu");
+
+                                    InetAddress adresseIP = dp.getAddress(); //adresse client
+                                    int portDistant = dp.getPort();  // port client
+
                                     f.write(s.getBytes());
-                                    System.out.println(dp.getLength());
+                                    System.out.println("taille du paquet :" +dp.getLength());
                                     // On envoie un accuse de reception
-                                    texte = new String(b);
-                                    texte = texte.substring(0,dp.getLength());
-                                    dp = new DatagramPacket(b,longueurAccuse, adresseIP, portDistant);
+
+                                    String ac = "le paquet n°"+dp.getData()[0]+" a bien été reçu";
+                                    byte acServer[] = ac.getBytes();
+                                    dp = new DatagramPacket(acServer,acServer.length, adresseIP, portDistant);
                                     System.out.println("Reception du port " + dp.getPort() + " de la machine " + dp.getAddress().getHostName() );
                                     dsoc.send(dp);
 
