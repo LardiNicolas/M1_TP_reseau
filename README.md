@@ -5,7 +5,7 @@ Projet éxecutable via l'IDE [IntelliJ](https://www.jetbrains.com/fr-fr/idea/)
 
 JDK [13](https://www.oracle.com/java/technologies/javase-jdk13-downloads.html)
 
-Sujet disponnible [ici](http://ufrsciencestech.u-bourgogne.fr/master1/Reseaux/TP/TP2.pdf)
+Sujet disponible [ici](http://ufrsciencestech.u-bourgogne.fr/master1/Reseaux/TP/TP2.pdf)
 
 * RIGLET Flavien - [*@Flav52*](https://github.com/Flav52)
 * LARDI Nicolas - [*@LardiNicolas*](https://github.com/LardiNicolas)
