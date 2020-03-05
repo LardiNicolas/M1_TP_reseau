@@ -15,17 +15,11 @@ public class serverv2
                                     DatagramPacket dp=new DatagramPacket(b,b.length);//L'ERREUR EST LA
                                     dsoc.receive(dp);
                                     String s = (new String(dp.getData(), StandardCharsets.UTF_8)).substring(0,dp.getLength());
-                                    InetAddress adresseIP = dp.getAddress();
-                                    int portDistant = dp.getPort();
+                                    System.out.println("Paquet n°"+dp.getData()[0]+" a bien été reçu");
                                     //System.out.println(s);
                                     f.write(s.getBytes());
-                                    System.out.println(dp.getLength());
-                                    // On envoie un accuse de reception
-                                    texte = new String(b);
-                                    texte = texte.substring(0,dp.getLength());
-                                    dp = new DatagramPacket(b,longueurAccuse, adresseIP, portDistant);
-                                    System.out.println("Reception du port " + dp.getPort() + " de la machine " + dp.getAddress().getHostName() );
-                                    dsoc.send(dp);
+                                    System.out.println("taille du paquet :" +dp.getLength());
+
 
                         }
             }

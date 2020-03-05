@@ -43,8 +43,8 @@ public class clientV2
                                     i++;
                                     if( i == taillePaquet)
                                     {
-                                        b[cpt] = (byte)cpt;
-                                        dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port)); //L'ERREUR EST LA
+                                        b[0] = (byte)cpt;
+                                        dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port));
                                         System.out.println("Paquet envoye : N-"+cpt+", taille("+i+")");
                                         i=0;
                                         cpt++;
@@ -53,7 +53,7 @@ public class clientV2
                                     {
                                         b[0]=(byte)cpt;
                                         dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port));
-                                        System.out.println("Paquet envoye : N-"+cpt+",taille("+i+")");
+                                        System.out.println("Paquet envoye : N°"+cpt+",taille("+i+")");
                                         System.out.println("taille totale du fichier envoye ="+tailleTotal);
                                     }
 
