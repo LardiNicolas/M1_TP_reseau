@@ -7,4 +7,7 @@ JDK [13](https://www.oracle.com/java/technologies/javase-jdk13-downloads.html)
 
 Sujet disponnible [ici](http://ufrsciencestech.u-bourgogne.fr/master1/Reseaux/TP/TP2.pdf)
 
-![UB](https://blog.u-bourgogne.fr/list-maps-fr/wp-content/uploads/sites/56/2016/01/logo-uB-filet.jpg)
+* RIGLET Flavien - *@Flav52*
+* LARDI Nicolas - *@LardiNicolas*
+
+<img style="text-align:center" src="https://blog.u-bourgogne.fr/list-maps-fr/wp-content/uploads/sites/56/2016/01/logo-uB-filet.jpg" width="250" alt="UB Logo">
