@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b7996a7-96a3-4b30-bdf9-dee073333515" name="Default Changelist" comment="">
+    <list default="true" id="5b7996a7-96a3-4b30-bdf9-dee073333515" name="Default Changelist" comment="clientV2, envoi par paquet fonctionnne !">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/clientV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/clientV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/essai.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/essai.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/server.class" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583363580720</updated>
-      <workItem from="1583363582080" duration="4964000" />
+      <workItem from="1583363582080" duration="7766000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1583363857397</created>
@@ -83,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583366829599</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="clientV2, envoi par paquet fonctionnne !">
+      <created>1583368617271</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583368617271</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,13 +102,14 @@
     <MESSAGE value="add all" />
     <MESSAGE value="clientV2 presque fonctionnel" />
     <MESSAGE value="clientV2 manque le reste" />
-    <option name="LAST_COMMIT_MESSAGE" value="clientV2 manque le reste" />
+    <MESSAGE value="clientV2, envoi par paquet fonctionnne !" />
+    <option name="LAST_COMMIT_MESSAGE" value="clientV2, envoi par paquet fonctionnne !" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583366826716">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583371314232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583366826716" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583371314232" />
     <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1583363738450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -108,9 +118,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="220" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583363776110" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583366837543">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583368624859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583366837543" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583368624859" />
   </component>
 </project>

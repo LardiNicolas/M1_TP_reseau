@@ -5,17 +5,18 @@ public class server
 {
             public static void main(String args[])throws IOException
             {
-                        byte b[]=new byte[66000];
+                        byte[] b=new byte[66000];
                         DatagramSocket dsoc=new DatagramSocket(2000);
                         FileOutputStream f=new FileOutputStream("essai.txt");
                         while(true)
                         {
-                                    DatagramPacket dp=new DatagramPacket(b,b.length);
+                                    DatagramPacket dp=new DatagramPacket(b,b.length);//L'ERREUR EST LA
                                     dsoc.receive(dp);
                                     String s = (new String(dp.getData(), StandardCharsets.UTF_8)).substring(0,dp.getLength());
                                     //System.out.println(s);
                                     f.write(s.getBytes());
-                                    System.out.println(dp.getLength());                              
+                                    System.out.println(dp.getLength());
+                                    System.out.println(dp.getOffset());//L'ERREUR EST LA
 
                         }
             }
