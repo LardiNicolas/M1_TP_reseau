@@ -4,6 +4,9 @@
     <list default="true" id="5b7996a7-96a3-4b30-bdf9-dee073333515" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/clientV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/clientV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/essai.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/essai.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/server.class" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,11 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -54,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583363580720</updated>
-      <workItem from="1583363582080" duration="789000" />
+      <workItem from="1583363582080" duration="3220000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1583363857397</created>
@@ -63,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583363857397</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="clientV2 presque fonctionnel">
+      <created>1583364445521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583364445521</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,13 +86,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add all" />
-    <option name="LAST_COMMIT_MESSAGE" value="add all" />
+    <MESSAGE value="clientV2 presque fonctionnel" />
+    <option name="LAST_COMMIT_MESSAGE" value="clientV2 presque fonctionnel" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583363856125">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583364444399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583363856125" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583364444399" />
     <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1583363738450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -86,9 +102,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="220" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583363776110" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583363908276">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583364449851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583363908276" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583364449851" />
   </component>
 </project>

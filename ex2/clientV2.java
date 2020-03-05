@@ -45,13 +45,15 @@ public class clientV2
                                     {
                                         b[0] = (byte)cpt;
                                         dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port));
-                                        System.out.println("Paquet envoye : taille("+(i-cpt*taillePaquet%i)+")");
+                                        System.out.println("Paquet envoye : taille("+(taillePaquet%i)+")");
                                         i=0;
                                         cpt++;
-                                    }else if(i-cpt*taillePaquet%i < taillePaquet)
+                                    }
+                                    else if( i == taillePaquet && cpt)
                                     {
                                         b[0]=(byte)cpt;
                                         dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port));
+                                        System.out.println("Paquet envoye : taille("+(taillePaquet%i)+")");
                                     }
                                     
                         }                     
