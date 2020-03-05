@@ -41,6 +41,8 @@ out/production/
 .idea/*
 !/.idea/M1_TP_reseau.iml
 !/.idea/misc.xml
+!/.idea/modules.xml
+!/.idea/vcs.xml
 #.idea_modules/
 #*.iml
 #*.ipr

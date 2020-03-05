@@ -1,4 +1,4 @@
-/*SERVER CLASS*/
+package ex1;/*SERVER CLASS*/
 import java.net.*;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
