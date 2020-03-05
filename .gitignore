@@ -37,12 +37,14 @@ gradle-app.setting
 ##############################
 ## IntelliJ
 ##############################
-out/
+out/production/
+!/.idea/M1_TP_reseau.iml
+!/.idea/misc.xml
 .idea/
-.idea_modules/
-*.iml
-*.ipr
-*.iws
+#.idea_modules/
+#*.iml
+#*.ipr
+#*.iws
 
 ##############################
 ## Eclipse
