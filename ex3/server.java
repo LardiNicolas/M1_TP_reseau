@@ -7,7 +7,7 @@ public class server
             {
                         byte[] b=new byte[65000];
                         int longueurAccuse = b.length;
-                        DatagramSocket dsoc=new DatagramSocket(2001);
+                        DatagramSocket dsoc=new DatagramSocket(2000);
                         FileOutputStream f=new FileOutputStream("essai.txt");
                         String texte;
                         while(true)

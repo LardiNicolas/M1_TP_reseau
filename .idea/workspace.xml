@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7996a7-96a3-4b30-bdf9-dee073333515" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ex3/Lire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex3/clientV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex3/grosFichier.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex3/server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/clientV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/clientV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/essai.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/essai.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/grosFichier.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/grosFichier.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/server.class" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/server.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +39,41 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex3" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ex3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.clientV2">
+    <configuration name="clientV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clientV2" />
+      <module name="M1_TP_reseau" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server" />
+      <module name="M1_TP_reseau" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.clientV2" />
+        <item itemvalue="Application.server" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -67,6 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583363580720</updated>
       <workItem from="1583363582080" duration="12521000" />
+      <workItem from="1583399802457" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1583363857397</created>
@@ -118,22 +150,44 @@
     <option name="LAST_COMMIT_MESSAGE" value="clientV2, erreur offset" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#Project_Structure" timestamp="1583371625174">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="393" y="84" width="800" height="684" key="#Project_Structure" timestamp="1583399901673">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1583371625174" />
+    <state x="393" y="84" width="800" height="684" key="#Project_Structure/0.27.1366.741@0.27.1366.741" timestamp="1583399901673" />
     <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583371374512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583371374512" />
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1583371624024">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="526" y="171" width="789" height="597" key="FileChooserDialogImpl" timestamp="1583399899765">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583371624024" />
+    <state x="526" y="171" width="789" height="597" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1583399899765" />
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1583400480720">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583400480720" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1583400480719">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583400480719" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1583400480719">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583400480719" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1583400480720">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583400480720" />
     <state x="625" y="220" key="NewModule_or_Project.wizard" timestamp="1583363776110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="220" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583363776110" />
+    <state x="166" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1583400360933">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="166" y="27" width="1024" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583400360933" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583371380649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
