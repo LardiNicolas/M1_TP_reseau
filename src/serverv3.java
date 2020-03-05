@@ -1,15 +1,13 @@
-package ex2;
-
 import java.net.*;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-public class serverv2
+public class serverv3
 {
             public static void main(String args[])throws IOException
             {
                         byte[] b=new byte[65000];
                         int longueurAccuse = b.length;
-                        DatagramSocket dsoc=new DatagramSocket(2001);
+                        DatagramSocket dsoc=new DatagramSocket(2000);
                         FileOutputStream f=new FileOutputStream("essai.txt");
                         String texte;
                         while(true)

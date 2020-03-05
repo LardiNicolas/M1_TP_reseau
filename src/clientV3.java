@@ -1,12 +1,11 @@
-package ex2;/*CLIENT CLASS*/
 import java.net.*;
 import java.io.*;
-public class clientV2
+public class clientV3
 {
             public static void main(String args[])throws Exception
             {         
                         //port
-                        int port=2001;
+                        int port=2000;
                         String fichier="grosFichier";
 
                         System.out.println("Etape 1 : port("+port+")");
@@ -62,6 +61,14 @@ public class clientV2
                                     
                         }                     
                         f.close();
+
+                        b = new byte[256];
+                        DatagramPacket dp=new DatagramPacket(b,b.length);
+                        dsoc.receive(dp);
+                        String ligne = new String(b);
+                        ligne = ligne.substring(0, dp.getLength());
+                        System.out.println("Accusé de reception du port " + dp.getPort() + " de la machine " + dp.getAddress().getHostName() + " : " + ligne);
+                        System.exit(1);
 
 
 

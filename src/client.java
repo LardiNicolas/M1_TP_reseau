@@ -1,4 +1,3 @@
-package ex1;/*CLIENT CLASS*/
 import java.net.*;
 import java.io.*;
 
