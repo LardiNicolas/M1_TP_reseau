@@ -35,6 +35,7 @@ public class clientV2
 
 
                         int i=1;
+                        long tailleTotal=nomFichier.length();
                         int cpt = 0;
                         byte b[]=new byte[500000];
                         while(f.available()!=0)
@@ -45,16 +46,19 @@ public class clientV2
                                     {
                                         b[0] = (byte)cpt;
                                         dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port));
-                                        System.out.println("Paquet envoye : taille("+(taillePaquet%i)+")");
+                                        System.out.println("Paquet envoye : N-"+cpt+", taille("+i+")");
                                         i=0;
                                         cpt++;
                                     }
-                                    else if( i == taillePaquet && cpt)
+                                    else if( tailleTotal == taillePaquet*cpt+i)
                                     {
                                         b[0]=(byte)cpt;
                                         dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port));
-                                        System.out.println("Paquet envoye : taille("+(taillePaquet%i)+")");
+                                        System.out.println("Paquet envoye : N-"+cpt+",taille("+i+")");
+                                        System.out.println("taille totale du fichier envoye ="+tailleTotal);
                                     }
+
+
                                     
                         }                     
                         f.close();
