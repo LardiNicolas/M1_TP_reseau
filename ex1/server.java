@@ -14,7 +14,7 @@ public class server
                                     DatagramPacket dp=new DatagramPacket(b,b.length);
                                     dsoc.receive(dp);
                                     String s = (new String(dp.getData(), StandardCharsets.UTF_8)).substring(0,dp.getLength());
-                                    System.out.println(s); 
+                                    System.out.println(s);
                                     f.write(s.getBytes());
                                     System.out.println(dp.getLength());                              
 

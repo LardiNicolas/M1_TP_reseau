@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5b7996a7-96a3-4b30-bdf9-dee073333515" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/clientV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/clientV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1/Lire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1/client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1/essai" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1/server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1/server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/Lire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/grosFichier.txt" beforeDir="false" afterPath="$PROJECT_DIR$/grosFichier.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/serverv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reponse2.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +37,56 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\_Fac\_M1\S2\Reseaux\TP2\M1_TP_reseau" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.clientV2">
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client" />
+      <module name="M1_TP_reseau" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clientV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clientV2" />
+      <module name="M1_TP_reseau" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server" />
+      <module name="M1_TP_reseau" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serverv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serverv2" />
+      <module name="M1_TP_reseau" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.clientV2" />
+        <item itemvalue="Application.serverv2" />
+        <item itemvalue="Application.client" />
+        <item itemvalue="Application.server" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -74,6 +130,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add all" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="732" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583364663417">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="732" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/-1920.0.1920.1050@0.0.1920.1080" timestamp="1583364663417" />
     <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583363856125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -82,10 +142,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583363738450" />
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom" timestamp="1583366691362">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1050@0.0.1920.1080" timestamp="1583366691362" />
+    <state width="1877" height="332" key="GridCell.Tab.0.center" timestamp="1583366691362">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="332" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1050@0.0.1920.1080" timestamp="1583366691362" />
+    <state width="1877" height="332" key="GridCell.Tab.0.left" timestamp="1583366691362">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="332" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1050@0.0.1920.1080" timestamp="1583366691362" />
+    <state width="1877" height="332" key="GridCell.Tab.0.right" timestamp="1583366691362">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="332" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1050@0.0.1920.1080" timestamp="1583366691362" />
     <state x="625" y="220" key="NewModule_or_Project.wizard" timestamp="1583363776110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="220" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583363776110" />
+    <state x="461" y="182" key="SettingsEditor" timestamp="1583364759931">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="182" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1050@0.0.1920.1080" timestamp="1583364759931" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583363908276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

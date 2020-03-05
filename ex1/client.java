@@ -4,7 +4,7 @@ import java.io.*;
 
 public class client
 {
-            public static void main(String args[])throws Exception
+            public static void main(String[] args)throws Exception
             {         
                         System.out.println("Etape 1 : Veuillez saisir le port (>1024)");
                         int port=Lire.i();
@@ -23,12 +23,12 @@ public class client
                         }
 
                         byte b[]=new byte[135000];
-                        FileInputStream f=new FileInputStream(nomFichier+".txt");
+                        FileInputStream f=new FileInputStream(nomFichier);
                         DatagramSocket dsoc=new DatagramSocket(50000);
 
                         System.out.println("Etape 2.1 : Que voulez-vous écrire dans le fichier (sans retour ligne)?");
                         String ecriture=Lire.S();
-                        PrintWriter writer = new PrintWriter(nomFichier+".txt");
+                        PrintWriter writer = new PrintWriter(nomFichier);
                         writer.print(ecriture);
                         writer.close();
 
