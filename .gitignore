@@ -38,9 +38,9 @@ gradle-app.setting
 ## IntelliJ
 ##############################
 out/production/
+.idea/*
 !/.idea/M1_TP_reseau.iml
 !/.idea/misc.xml
-.idea/
 #.idea_modules/
 #*.iml
 #*.ipr
