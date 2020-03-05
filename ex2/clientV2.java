@@ -44,8 +44,8 @@ public class clientV2
                                     i++;
                                     if( i == taillePaquet)
                                     {
-                                        b[0] = (byte)cpt;
-                                        dsoc.send(new DatagramPacket(b,cpt*taillePaquet,i,InetAddress.getLocalHost(),port)); //L'ERREUR EST LA
+                                        b[cpt] = (byte)cpt;
+                                        dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port)); //L'ERREUR EST LA
                                         System.out.println("Paquet envoye : N-"+cpt+", taille("+i+")");
                                         i=0;
                                         cpt++;
@@ -63,8 +63,17 @@ public class clientV2
                         }                     
                         f.close();
 
+                        b = new byte[256];
+                        DatagramPacket dp=new DatagramPacket(b,b.length);
+                        dsoc.receive(dp);
+                        String ligne = new String(b);
+                        ligne = ligne.substring(0, dp.getLength());
+                        System.out.println("Accusé de reception du port " + dp.getPort() + " de la machine " + dp.getAddress().getHostName() + " : " + ligne);
+                        System.exit(1);
 
-           
+
+
+
             }
 
 }

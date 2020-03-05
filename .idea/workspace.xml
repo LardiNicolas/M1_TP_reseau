@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b7996a7-96a3-4b30-bdf9-dee073333515" name="Default Changelist" comment="clientV2, envoi par paquet fonctionnne !">
+    <list default="true" id="5b7996a7-96a3-4b30-bdf9-dee073333515" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/clientV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/clientV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/essai.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/essai.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/grosFichier.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/grosFichier.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/server.class" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/server.java" afterDir="false" />
     </list>
@@ -39,6 +40,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -62,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583363580720</updated>
-      <workItem from="1583363582080" duration="7766000" />
+      <workItem from="1583363582080" duration="12521000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1583363857397</created>
@@ -92,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583368617271</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="clientV2, erreur offset">
+      <created>1583371375242</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583371375242</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,24 +114,29 @@
     <MESSAGE value="clientV2 presque fonctionnel" />
     <MESSAGE value="clientV2 manque le reste" />
     <MESSAGE value="clientV2, envoi par paquet fonctionnne !" />
-    <option name="LAST_COMMIT_MESSAGE" value="clientV2, envoi par paquet fonctionnne !" />
+    <MESSAGE value="clientV2, erreur offset" />
+    <option name="LAST_COMMIT_MESSAGE" value="clientV2, erreur offset" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583371314232">
+    <state x="552" y="179" key="#Project_Structure" timestamp="1583371625174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583371314232" />
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1583363738450">
+    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1583371625174" />
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583371374512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583363738450" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583371374512" />
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1583371624024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583371624024" />
     <state x="625" y="220" key="NewModule_or_Project.wizard" timestamp="1583363776110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="220" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583363776110" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583368624859">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583371380649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583368624859" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583371380649" />
   </component>
 </project>
