@@ -30,7 +30,7 @@ public class clientV3
 
                         System.out.println("Etape 2.1 : lecture fichier volumineux");
                         FileInputStream f=new FileInputStream(nomFichier);
-                        DatagramSocket dsoc=new DatagramSocket(50000);
+                        DatagramSocket dsoc=new DatagramSocket(3000);
 
 
                         int i=1;
@@ -75,7 +75,7 @@ public class clientV3
                         DatagramPacket dp=new DatagramPacket(b,b.length);
                         dsoc.receive(dp);
 
-                        System.exit(1);
+                        System.exit(0);
 
 
 
