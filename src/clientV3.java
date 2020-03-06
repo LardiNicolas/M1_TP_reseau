@@ -45,7 +45,7 @@ public class clientV3
                                     if( i == taillePaquet)
                                     {
                                         b[0] = (byte)cpt;
-                                        dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port)); //L'ERREUR EST LA
+                                        dsoc.send(new DatagramPacket(b,i,InetAddress.getLocalHost(),port));
                                         System.out.println("Paquet envoye : N°"+cpt+", taille("+i+")");
                                         i=0;
                                         cpt++;
@@ -72,7 +72,7 @@ public class clientV3
                         }                     
                         f.close();
 
-                        
+
 
                         System.exit(0);
 
