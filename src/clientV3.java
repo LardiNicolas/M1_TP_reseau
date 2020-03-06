@@ -72,8 +72,7 @@ public class clientV3
                         }                     
                         f.close();
 
-                        DatagramPacket dp=new DatagramPacket(b,b.length);
-                        dsoc.receive(dp);
+                        
 
                         System.exit(0);
 
